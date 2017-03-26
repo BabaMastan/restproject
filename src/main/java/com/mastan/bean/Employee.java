@@ -5,15 +5,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
-@XmlRootElement
+
 public class Employee {
-	@XmlAttribute
 	private String name;
-	@XmlAttribute
 	private Integer id;
-	@XmlAttribute
 	private String designation;
-	@XmlAttribute
 	private Integer salary;
 	public String getName() {
 		return name;
